@@ -117,7 +117,7 @@ class FillOrderDetailsAction implements ActionInterface, ApiAwareInterface
                 }
 
             } else {
-                $_resultObject = '';
+                $_resultObject = $_value;
             }
 
             return $_resultObject;
